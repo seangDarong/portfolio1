@@ -1,0 +1,27 @@
+DARONG SEANG
+Computer Science Student | Software Engineering
+
+Email: youremail@example.com
+GitHub: https://github.com/your-username
+LinkedIn: https://linkedin.com/in/yourusername
+Telegram: https://t.me/yourusername
+Facebook: https://facebook.com/yourusername
+
+SUMMARY
+Motivated Computer Science student focused on software engineering.
+Interested in building clean, user-friendly applications and learning emerging technologies.
+
+SKILLS
+- TypeScript, JavaScript, React, Next.js
+- Tailwind CSS, Node.js, Express
+- Git, GitHub, SQL
+
+PROJECTS
+- Project One: Brief project summary and impact.
+- Project Two: Brief project summary and impact.
+- Project Three: Brief project summary and impact.
+
+EDUCATION
+- Bachelor of Computer Science (In Progress)
+
+Replace this file with your final CV (PDF or DOC) when ready.
