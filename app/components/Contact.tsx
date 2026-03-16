@@ -3,6 +3,9 @@
 
 import { FormEvent, useState } from "react";
 
+const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const basePath = rawBasePath === "/" ? "" : rawBasePath.replace(/\/$/, "");
+
 const socialLinks = [
     {
         name: "Facebook",
@@ -91,7 +94,7 @@ export default function Contact() {
                     </div>
 
                     <a
-                        href="/Seang_Darong-CV.pdf"
+                        href={`${basePath}/Seang_Darong-CV.pdf`}
                         download
                         className="inline-flex rounded-2xl border border-[#EC4C4E] bg-[#EC4C4E] px-6 py-2.5 text-base text-white transition hover:bg-[#d63d3f]"
                     >

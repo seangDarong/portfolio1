@@ -1,6 +1,9 @@
 "use client";
 import Image from "next/image";
 
+const rawBasePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const basePath = rawBasePath === "/" ? "" : rawBasePath.replace(/\/$/, "");
+
 export default function Hero() {
     return (
         <section
@@ -41,7 +44,7 @@ export default function Hero() {
 
                         <div className="absolute left-1/2 top-16 h-70 w-70 -translate-x-1/2 overflow-hidden rounded-full border-4 border-background  sm:h-80 sm:w-80">
                             <Image
-                                src="/profile.jpg"
+                                src={`${basePath}/profile.jpg`}
                                 alt="Darong Seang"
                                 fill
                                 priority
